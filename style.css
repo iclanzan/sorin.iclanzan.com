@@ -16,16 +16,14 @@ ul {
 }
 
 body {
-	background: #323334;
 	font-family: "Helvetica Neue", helvetica arial, sans-serif;
 	font-size: 16px;
-	color: #444;
+	color: #666;
 }
 
 .clear {clear: both;}
 
 p {
-	color: #666;
 	font-size: 1em;
 	line-height: 1.4em;
 	margin-bottom: 10px;
@@ -34,28 +32,25 @@ p {
 #cv {
 	width: 90%;
 	max-width: 800px;
-	background: #EEE;
 	margin: 30px auto;
 }
 
 .mainDetails {
-	padding: 25px 35px;
-	border-bottom: 2px solid #33B5E5;
-	background: #E1E1E1;
+	padding: 25px 40px;
 }
 
 #name h1 {
+    color: #333;
 	font-size: 2.5em;
-	font-weight: 700;
-	/*font-family: 'Rokkitt', Helvetica, Arial, sans-serif;*/
+	font-weight: 500;
 	margin-bottom: -6px;
 }
 
 #name h2 {
 	color: #666;
 	font-size: 2em;
+    font-weight: 300;
 	margin-left: 2px;
-	/*font-family: 'Rokkitt', Helvetica, Arial, sans-serif;*/
 }
 
 #mainArea {
@@ -91,7 +86,7 @@ p {
 }
 
 a {
-	color: #444;
+	color: #333;
 	text-decoration: none;
 	border-bottom: 1px solid #09C;
 }
@@ -105,10 +100,6 @@ section {
 	border-top: 1px solid #dedede;
 	padding: 20px 0 0;
 	margin-bottom: 20px;
-}
-
-section:first-child {
-	border-top: 0;
 }
 
 section:last-child {
@@ -128,18 +119,19 @@ section:last-child {
 
 .sectionTitle h1 {
 	/*font-family: 'Rokkitt', Helvetica, Arial, sans-serif;*/
-	font-weight: 100;
+	font-weight: 300;
 	font-size: 1.5em;
 	color: #09C;
 }
 
 .sectionContent h2 {
-	/*font-family: 'Rokkitt', Helvetica, Arial, sans-serif;*/
-	font-size: 1.5em;
+    color: #333;
+    font-size: 1.5em;
 	margin-bottom: -2px;
 }
 
 .subDetails {
+    color: #999;
 	font-size: 0.8em;
 	font-style: italic;
 	margin-bottom: 3px;
@@ -149,6 +141,7 @@ section:last-child {
 	float: left;
 	width: 33.3333%;
 	margin-bottom: 3px;
+    color: #444;
 }
 
 @media all and (max-width: 800px) {
@@ -183,7 +176,7 @@ section:last-child {
 	}
 
 	#mainArea {
-		padding: 0 25px;
+		padding: 0 15px;
 	}
 
 	#name h1 {
